@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link  rel="stylesheet" type="text/css" href="mycss.css">
+</head>
+<body>
+    <ul>
+        <a href ="Log.html"><button class="r">Login</button></a> 
+    </ul>
+    <div class="fro">
+    <form   action="Log.html" name="myform"  onsubmit="return register()">
+        <center>
+        <h1>Register Here</h1>
+        First Name:&nbsp;<input type="text" name="firstname"/><br><br>
+        Last Name:&nbsp;<input type="text"/><br><br>
+        Email:&nbsp;<input type="email" name="em"/><br><br>
+        Date of Birth:&nbsp;<input type="date" name="day" required/><br><br>
+        Username:&nbsp;<input type="text" name="user"/><br><br>
+        Password:&nbsp;<input type="password" name="pass"/><br><br>
+        Re-enter Password:&nbsp;<input type="password" name="repass"/><br><br>
+        <button type="submit" >Submit</button>
+    </center>
+    </form>
+    </div>
+    <script src="reg.js"></script>
+</body>
+</html>
